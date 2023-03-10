@@ -1,11 +1,10 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-import CompIndex3 from './views/CompIndex3.vue';
-
+//import indexView from './views/indexView.vue';
+import HeaderComponent from './components/Header.vue';
 </script>
 
 <template>
-  <comp-index-3></comp-index-3>
+  <HeaderComponent></HeaderComponent>
+  <router-view></router-view>
 </template>
 

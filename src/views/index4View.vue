@@ -46,7 +46,7 @@
               <div class="logo-cat-wrap">
                 <div class="logo-part">
                   <a href="index.html">
-                    <img src="assets/images/logo2.png" alt="Logo" />
+                    <img src="src/assets/images/logo2.png" alt="Logo" />
                   </a>
                 </div>
               </div>
@@ -62,12 +62,12 @@
                   <nav class="sc-menu">
                     <ul class="nav-menu">
                       <li class="menu-item-has-children current-menu-item">
-                        <a href="index.html">Home</a>
+                        <router-link :to="{ name: 'index' }"> Home </router-link>
                         <ul class="sub-menu">
-                          <li><a href="index.html">Home One</a></li>
-                          <li><a href="index2.html">Home Two</a></li>
-                          <li><a href="index3.html">Home Three</a></li>
-                          <li class="current-menu-item"><a href="index4.html">Home Four</a></li>
+                          <li><router-link :to="{ name: 'index' }"> Home One</router-link></li>
+                          <li><router-link :to="{ name: 'index2' }"> Home Two</router-link></li>
+                          <li><router-link :to="{ name: 'index3' }"> Home Three</router-link></li>
+                          <li class="current-menu-item"><router-link :to="{ name: 'index4' }"> Home Four</router-link></li>
                         </ul>
                       </li>
                       <li><a href="about.html">About</a></li>
@@ -165,7 +165,7 @@
           </div>
         </div>
         <div class="canvas-logo">
-          <a href="index.html"><img src="assets/images/logo2.png" alt="logo" /></a>
+          <a href="index.html"><img src="src/assets/images/logo2.png" alt="logo" /></a>
         </div>
         <div class="offcanvas-text">
           <p>
@@ -261,7 +261,7 @@
                 class="wow fadeInRight"
                 data-wow-delay="300ms"
                 data-wow-duration="2000ms"
-                src="assets/images/banner/banner-image4.png"
+                src="src/assets/images/banner/banner-image4.png"
                 alt="Banner Image"
                 width="786px"
                 height="849px"
@@ -279,7 +279,7 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 mb-30">
             <div class="categories-item">
-              <img src="assets/images/category/icon1.png" alt="" />
+              <img src="src/assets/images/category/icon1.png" alt="" />
               <h4 class="title"><a href="#">Natural Environment</a></h4>
               <div class="desc">
                 Excepteur sint occaecat cupidatat non thay proident, sunt in culpa
@@ -288,7 +288,7 @@
           </div>
           <div class="col-lg-3 col-md-6 mb-30">
             <div class="categories-item orange-color">
-              <img src="assets/images/category/icon2.png" alt="" />
+              <img src="src/assets/images/category/icon2.png" alt="" />
               <h4 class="title"><a href="#">Active Learning</a></h4>
               <div class="desc">
                 Excepteur sint occaecat cupidatat non thay proident, sunt in culpa
@@ -297,7 +297,7 @@
           </div>
           <div class="col-lg-3 col-md-6 mb-30">
             <div class="categories-item blue-violet-color">
-              <img src="assets/images/category/icon3.png" alt="" />
+              <img src="src/assets/images/category/icon3.png" alt="" />
               <h4 class="title"><a href="#">Expart Teachers</a></h4>
               <div class="desc">
                 Excepteur sint occaecat cupidatat non thay proident, sunt in culpa
@@ -306,7 +306,7 @@
           </div>
           <div class="col-lg-3 col-md-6 mb-30">
             <div class="categories-item pink-color">
-              <img src="assets/images/category/icon4.png" alt="" />
+              <img src="src/assets/images/category/icon4.png" alt="" />
               <h4 class="title"><a href="#">Music Lessons</a></h4>
               <div class="desc">
                 Excepteur sint occaecat cupidatat non thay proident, sunt in culpa
@@ -324,7 +324,7 @@
         <div class="row align-items-center">
           <div class="col-lg-5">
             <div class="img-part position-relative">
-              <img class="" src="assets/images/about/about4.png" alt="About Image" />
+              <img class="" src="src/assets/images/about/about4.png" alt="About Image" />
             </div>
           </div>
           <div class="col-lg-7 pl-90 md-pl-15 md-mt-90">
@@ -395,7 +395,7 @@
           <div class="courses-item">
             <div class="courses-grid">
               <div class="img-part text-center">
-                <a href="course-single.html"><img src="assets/images/courses/k1.png" alt="" /></a>
+                <a href="course-single.html"><img src="src/assets/images/courses/k1.png" alt="" /></a>
               </div>
               <div class="content-part">
                 <div class="course-price">
@@ -411,7 +411,7 @@
                 </div>
                 <div class="bottom-part align-items-center">
                   <div class="info-meta">
-                    <img src="assets/images/courses/user/1.jpg" alt="" />
+                    <img src="src/assets/images/courses/user/1.jpg" alt="" />
                     <ul>
                       <li>John Beg</li>
                       <li class="ratings">
@@ -434,7 +434,7 @@
           <div class="courses-item">
             <div class="courses-grid">
               <div class="img-part text-center">
-                <a href="course-single.html"><img src="assets/images/courses/k2.png" alt="" /></a>
+                <a href="course-single.html"><img src="src/assets/images/courses/k2.png" alt="" /></a>
               </div>
               <div class="content-part">
                 <div class="course-price">
@@ -450,7 +450,7 @@
                 </div>
                 <div class="bottom-part align-items-center">
                   <div class="info-meta">
-                    <img src="assets/images/courses/user/2.jpg" alt="" />
+                    <img src="src/assets/images/courses/user/2.jpg" alt="" />
                     <ul>
                       <li>Merian Jon</li>
                       <li class="ratings">
@@ -473,7 +473,7 @@
           <div class="courses-item">
             <div class="courses-grid">
               <div class="img-part text-center">
-                <a href="course-single.html"><img src="assets/images/courses/k3.png" alt="" /></a>
+                <a href="course-single.html"><img src="src/assets/images/courses/k3.png" alt="" /></a>
               </div>
               <div class="content-part">
                 <div class="course-price">
@@ -489,7 +489,7 @@
                 </div>
                 <div class="bottom-part align-items-center">
                   <div class="info-meta">
-                    <img src="assets/images/courses/user/3.jpg" alt="" />
+                    <img src="src/assets/images/courses/user/3.jpg" alt="" />
                     <ul>
                       <li>Michael Joe</li>
                       <li class="ratings">
@@ -587,7 +587,7 @@
               </div>
               <h2 class="title mb-30">Our Best Facilities for Kids</h2>
               <div class="facilities-list d-flex mb-30">
-                <img src="assets/images/events/f1.png" alt="" />
+                <img src="src/assets/images/events/f1.png" alt="" />
                 <div class="facilities-test">
                   <h4 class="mb-10">Nutritious Food</h4>
                   <div class="desc">
@@ -600,7 +600,7 @@
                 data-wow-delay="300ms"
                 data-wow-duration="2000ms"
               >
-                <img src="assets/images/events/f1.png" alt="" />
+                <img src="src/assets/images/events/f1.png" alt="" />
                 <div class="facilities-test">
                   <h4 class="mb-10">Nutritious Food</h4>
                   <div class="desc">
@@ -613,7 +613,7 @@
                 data-wow-delay="300ms"
                 data-wow-duration="2000ms"
               >
-                <img src="assets/images/events/f1.png" alt="" />
+                <img src="src/assets/images/events/f1.png" alt="" />
                 <div class="facilities-test">
                   <h4 class="mb-10">Nutritious Food</h4>
                   <div class="desc">
@@ -629,7 +629,7 @@
                 class="wow fadeInRight"
                 data-wow-delay="300ms"
                 data-wow-duration="2000ms"
-                src="assets/images/about/event2.png"
+                src="src/assets/images/about/event2.png"
                 alt="About Image"
               />
             </div>
@@ -653,10 +653,10 @@
         <div class="row g-0">
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item">
-              <img src="assets/images/gallery/k1.jpg" alt="Gallery Image" />
+              <img src="src/assets/images/gallery/k1.jpg" alt="Gallery Image" />
               <a
                 class="popup-galley"
-                href="assets/images/gallery/k1.jpg"
+                href="src/assets/images/gallery/k1.jpg"
                 title="Overall Rolling trophy"
               >
                 <i class="flaticon flaticon-magnifying-glass"></i>
@@ -665,10 +665,10 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item">
-              <img src="assets/images/gallery/k2.jpg" alt="Gallery Image" />
+              <img src="src/assets/images/gallery/k2.jpg" alt="Gallery Image" />
               <a
                 class="popup-galley"
-                href="assets/images/gallery/k2.jpg"
+                href="src/assets/images/gallery/k2.jpg"
                 title="Annual Sports Meet 2021"
               >
                 <i class="flaticon flaticon-magnifying-glass"></i>
@@ -677,10 +677,10 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item">
-              <img src="assets/images/gallery/k3.jpg" alt="Gallery Image" />
+              <img src="src/assets/images/gallery/k3.jpg" alt="Gallery Image" />
               <a
                 class="popup-galley"
-                href="assets/images/gallery/k3.jpg"
+                href="src/assets/images/gallery/k3.jpg"
                 title="Inter House Islamic Quiz"
               >
                 <i class="flaticon flaticon-magnifying-glass"></i>
@@ -689,10 +689,10 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item">
-              <img src="assets/images/gallery/k4.jpg" alt="Gallery Image" />
+              <img src="src/assets/images/gallery/k4.jpg" alt="Gallery Image" />
               <a
                 class="popup-galley"
-                href="assets/images/gallery/k4.jpg"
+                href="src/assets/images/gallery/k4.jpg"
                 title="Investiture Ceremony For Boys"
               >
                 <i class="flaticon flaticon-magnifying-glass"></i>
@@ -701,10 +701,10 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item">
-              <img src="assets/images/gallery/k5.jpg" alt="Gallery Image" />
+              <img src="src/assets/images/gallery/k5.jpg" alt="Gallery Image" />
               <a
                 class="popup-galley"
-                href="assets/images/gallery/k5.jpg"
+                href="src/assets/images/gallery/k5.jpg"
                 title="Investiture Ceremony For Girls"
               >
                 <i class="flaticon flaticon-magnifying-glass"></i>
@@ -713,10 +713,10 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item">
-              <img src="assets/images/gallery/k6.jpg" alt="Gallery Image" />
+              <img src="src/assets/images/gallery/k6.jpg" alt="Gallery Image" />
               <a
                 class="popup-galley"
-                href="assets/images/gallery/k6.jpg"
+                href="src/assets/images/gallery/k6.jpg"
                 title="46th National Day Celebrations"
               >
                 <i class="flaticon flaticon-magnifying-glass"></i>
@@ -762,7 +762,7 @@
           data-md-device-dots="false"
         >
           <div class="team-inner-item">
-            <img src="assets/images/team/k1.jpg" alt="" />
+            <img src="src/assets/images/team/k1.jpg" alt="" />
             <div class="team-item-text">
               <h3 class="team-name"><a href="team-single.html">Mike Jason</a></h3>
               <span class="team-title">Business Advisor</span>
@@ -782,7 +782,7 @@
             </div>
           </div>
           <div class="team-inner-item">
-            <img src="assets/images/team/k2.jpg" alt="" />
+            <img src="src/assets/images/team/k2.jpg" alt="" />
             <div class="team-item-text">
               <h3 class="team-name"><a href="team-single.html">Alexander Daniel</a></h3>
               <span class="team-title">Teaches Art</span>
@@ -802,7 +802,7 @@
             </div>
           </div>
           <div class="team-inner-item">
-            <img src="assets/images/team/k3.jpg" alt="" />
+            <img src="src/assets/images/team/k3.jpg" alt="" />
             <div class="team-item-text">
               <h3 class="team-name"><a href="team-single.html">Liam Ethan</a></h3>
               <span class="team-title">Teacher Program</span>
@@ -822,7 +822,7 @@
             </div>
           </div>
           <div class="team-inner-item">
-            <img src="assets/images/team/k1.jpg" alt="" />
+            <img src="src/assets/images/team/k1.jpg" alt="" />
             <div class="team-item-text">
               <h3 class="team-name"><a href="team-single.html">Mike Jason</a></h3>
               <span class="team-title">Business Advisor</span>
@@ -842,7 +842,7 @@
             </div>
           </div>
           <div class="team-inner-item">
-            <img src="assets/images/team/k2.jpg" alt="" />
+            <img src="src/assets/images/team/k2.jpg" alt="" />
             <div class="team-item-text">
               <h3 class="team-name"><a href="team-single.html">Alexander Daniel</a></h3>
               <span class="team-title">Teaches Art</span>
@@ -862,7 +862,7 @@
             </div>
           </div>
           <div class="team-inner-item">
-            <img src="assets/images/team/k3.jpg" alt="" />
+            <img src="src/assets/images/team/k3.jpg" alt="" />
             <div class="team-item-text">
               <h3 class="team-name"><a href="team-single.html">Liam Ethan</a></h3>
               <span class="team-title">Teacher Program</span>
@@ -1000,7 +1000,7 @@
                 incididunt
               </div>
               <div class="user-info d-flex align-items-center">
-                <img src="assets/images/testimonial/1.png" alt="" />
+                <img src="src/assets/images/testimonial/1.png" alt="" />
                 <div class="author-details">
                   <h4 class="name">Saiko Bag</h4>
                   <ul class="ratings">
@@ -1022,7 +1022,7 @@
                 incididunt
               </div>
               <div class="user-info d-flex align-items-center">
-                <img src="assets/images/testimonial/2.png" alt="" />
+                <img src="src/assets/images/testimonial/2.png" alt="" />
                 <div class="author-details">
                   <h4 class="name">Done Joy</h4>
                   <ul class="ratings">
@@ -1044,7 +1044,7 @@
                 incididunt
               </div>
               <div class="user-info d-flex align-items-center">
-                <img src="assets/images/testimonial/3.png" alt="" />
+                <img src="src/assets/images/testimonial/3.png" alt="" />
                 <div class="author-details">
                   <h4 class="name">Najran Tagos</h4>
                   <ul class="ratings">
@@ -1066,7 +1066,7 @@
                 amet.
               </div>
               <div class="user-info d-flex align-items-center">
-                <img src="assets/images/testimonial/2.png" alt="" />
+                <img src="src/assets/images/testimonial/2.png" alt="" />
                 <div class="author-details">
                   <h4 class="name">Saiko Bory</h4>
                   <ul class="ratings">
@@ -1120,7 +1120,7 @@
         >
           <div class="blog-item">
             <div class="image-part">
-              <img src="assets/images/blog/1.jpg" alt="" />
+              <img src="src/assets/images/blog/1.jpg" alt="" />
             </div>
             <div class="blog-content">
               <ul class="blog-meta">
@@ -1144,7 +1144,7 @@
 
           <div class="blog-item">
             <div class="image-part">
-              <img src="assets/images/blog/2.jpg" alt="" />
+              <img src="src/assets/images/blog/2.jpg" alt="" />
             </div>
             <div class="blog-content">
               <ul class="blog-meta">
@@ -1168,7 +1168,7 @@
 
           <div class="blog-item">
             <div class="image-part">
-              <img src="assets/images/blog/3.jpg" alt="" />
+              <img src="src/assets/images/blog/3.jpg" alt="" />
             </div>
             <div class="blog-content">
               <ul class="blog-meta">
@@ -1192,7 +1192,7 @@
 
           <div class="blog-item">
             <div class="image-part">
-              <img src="assets/images/blog/4.jpg" alt="" />
+              <img src="src/assets/images/blog/4.jpg" alt="" />
             </div>
             <div class="blog-content">
               <ul class="blog-meta">
@@ -1251,7 +1251,7 @@
           <div class="col-lg-4 footer-widget">
             <div class="about-widget pr-15">
               <div class="logo-part mb-30">
-                <a href="index.html"><img src="assets/images/logo2.png" alt="Footer Logo" /></a>
+                <a href="index.html"><img src="src/assets/images/logo2.png" alt="Footer Logo" /></a>
               </div>
               <p class="desc">
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
@@ -1333,17 +1333,17 @@
       </div>
     </div>
     <div class="animated-arrow-1 animated-arrow left-right-new">
-      <img src="assets/images/arrow-8.png" alt="" />
+      <img src="src/assets/images/arrow-8.png" alt="" />
     </div>
     <div class="animated-arrow-2 animated-arrow up-down-new">
-      <img src="assets/images/arrow-9.png" alt="" />
+      <img src="src/assets/images/arrow-9.png" alt="" />
     </div>
 
     <div class="animated-arrow-3 animated-arrow up-down-new">
-      <img src="assets/images/arrow-3.png" alt="" />
+      <img src="src/assets/images/arrow-3.png" alt="" />
     </div>
     <div class="animated-arrow-4 animated-arrow left-right-new">
-      <img src="assets/images/arrow-7.png" alt="" />
+      <img src="src/assets/images/arrow-7.png" alt="" />
     </div>
   </footer>
   <!-- Footer Secton End -->

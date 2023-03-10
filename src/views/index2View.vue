@@ -46,7 +46,7 @@
               <div class="logo-cat-wrap">
                 <div class="logo-part">
                   <a href="index.html">
-                    <img src="assets/images/logo.png" alt="Logo" />
+                    <img src="src/assets/images/logo.png" alt="Logo" />
                   </a>
                 </div>
               </div>
@@ -62,12 +62,12 @@
                   <nav class="sc-menu">
                     <ul class="nav-menu">
                       <li class="menu-item-has-children current-menu-item">
-                        <a href="index.html">Home</a>
+                        <router-link :to="{ name: 'index' }"> Home </router-link>
                         <ul class="sub-menu">
-                          <li><a href="index.html">Home One</a></li>
-                          <li class="current-menu-item"><a href="index2.html">Home Two</a></li>
-                          <li><a href="index3.html">Home Three</a></li>
-                          <li><a href="index4.html">Home Four</a></li>
+                          <li><router-link :to="{ name: 'index' }"> Home One</router-link></li>
+                          <li class="current-menu-item"><router-link :to="{ name: 'index2' }"> Home Two</router-link></li>
+                          <li><router-link :to="{ name: 'index3' }"> Home Three</router-link></li>
+                          <li><router-link :to="{ name: 'index4' }"> Home Four</router-link></li>
                         </ul>
                       </li>
                       <li><a href="about.html">About</a></li>
@@ -165,7 +165,7 @@
           </div>
         </div>
         <div class="canvas-logo">
-          <a href="index.html"><img src="assets/images/logo.png" alt="logo" /></a>
+          <a href="index.html"><img src="src/assets/images/logo.png" alt="logo" /></a>
         </div>
         <div class="offcanvas-text">
           <p>
@@ -256,34 +256,34 @@
               data-wow-delay="300ms"
               data-wow-duration="2000ms"
             >
-              <img src="assets/images/banner/banner-image2.png" alt="Banner Image" />
+              <img src="src/assets/images/banner/banner-image2.png" alt="Banner Image" />
             </div>
             <div
               class="view-students-img wow fadeInUp"
               data-wow-delay="300ms"
               data-wow-duration="2000ms"
             >
-              <img src="assets/images/banner/view-students.png" alt="Banner Image" />
+              <img src="src/assets/images/banner/view-students.png" alt="Banner Image" />
             </div>
             <div class="animate-circle"></div>
           </div>
         </div>
       </div>
       <div class="animated-arrow-1 animated-arrow left-right-new">
-        <img src="assets/images/banner/arrow-1.png" alt="" />
+        <img src="src/assets/images/banner/arrow-1.png" alt="" />
       </div>
       <div class="animated-arrow-2 animated-arrow up-down-new">
-        <img src="assets/images/banner/arrow-2.png" alt="" />
+        <img src="src/assets/images/banner/arrow-2.png" alt="" />
       </div>
 
       <div class="animated-arrow-3 animated-arrow up-down-new">
-        <img src="assets/images/banner/arrow-3.png" alt="" />
+        <img src="src/assets/images/banner/arrow-3.png" alt="" />
       </div>
       <div class="animated-arrow-4 animated-arrow left-right-new">
-        <img src="assets/images/banner/arrow-4.png" alt="" />
+        <img src="src/assets/images/banner/arrow-4.png" alt="" />
       </div>
       <div class="animated-arrow-5 animated-arrow up-down-new">
-        <img src="assets/images/banner/arrow-5.png" alt="" />
+        <img src="src/assets/images/banner/arrow-5.png" alt="" />
       </div>
     </div>
     <!-- Banner Section End -->
@@ -294,7 +294,7 @@
         <div class="row align-items-center">
           <div class="col-lg-5">
             <div class="img-part position-relative">
-              <img class="" src="assets/images/about/about2.png" alt="About Image" />
+              <img class="" src="src/assets/images/about/about2.png" alt="About Image" />
             </div>
           </div>
           <div class="col-lg-7 md-mt-50">
@@ -319,7 +319,7 @@
             </div>
           </div>
         </div>
-        <img class="up-down-new" src="assets/images/about/shap_image.png" alt="" />
+        <img class="up-down-new" src="src/assets/images/about/shap_image.png" alt="" />
       </div>
     </div>
     <!-- About Section End -->
@@ -344,7 +344,7 @@
           <div class="col-md-6 grid-item filter1">
             <div class="courses-grid mb-30 d-flex align-items-center">
               <div class="img-part">
-                <a href="course-single.html"><img src="assets/images/courses/lg1.jpg" alt="" /></a>
+                <a href="course-single.html"><img src="src/assets/images/courses/lg1.jpg" alt="" /></a>
                 <div class="course-price">
                   <span class="price">Free</span>
                 </div>
@@ -354,7 +354,7 @@
                 <div class="des">Excepteur sint occaecat cupidatat non proident, sunt in culpa</div>
                 <ul class="meta-part">
                   <li class="user">
-                    <img src="assets/images/courses/user/1.jpg" alt="" />
+                    <img src="src/assets/images/courses/user/1.jpg" alt="" />
                     Michael Joe
                   </li>
                   <li class="user">
@@ -385,7 +385,7 @@
           <div class="col-md-6 grid-item filter4">
             <div class="courses-grid mb-30 d-flex align-items-center">
               <div class="img-part">
-                <a href="course-single.html"><img src="assets/images/courses/lg2.jpg" alt="" /></a>
+                <a href="course-single.html"><img src="src/assets/images/courses/lg2.jpg" alt="" /></a>
                 <div class="course-price">
                   <span class="price">$35</span>
                 </div>
@@ -395,7 +395,7 @@
                 <div class="des">Excepteur sint occaecat cupidatat non proident, sunt in culpa</div>
                 <ul class="meta-part">
                   <li class="user">
-                    <img src="assets/images/courses/user/3.jpg" alt="" />
+                    <img src="src/assets/images/courses/user/3.jpg" alt="" />
                     Bolt Jari
                   </li>
                   <li class="user">
@@ -426,7 +426,7 @@
           <div class="col-md-6 grid-item filter3 filter2 filter3">
             <div class="courses-grid mb-30 d-flex align-items-center">
               <div class="img-part">
-                <a href="course-single.html"><img src="assets/images/courses/lg3.jpg" alt="" /></a>
+                <a href="course-single.html"><img src="src/assets/images/courses/lg3.jpg" alt="" /></a>
                 <div class="course-price">
                   <span class="price">$45</span>
                 </div>
@@ -436,7 +436,7 @@
                 <div class="des">Excepteur sint occaecat cupidatat non proident, sunt in culpa</div>
                 <ul class="meta-part">
                   <li class="user">
-                    <img src="assets/images/courses/user/3.jpg" alt="" />
+                    <img src="src/assets/images/courses/user/3.jpg" alt="" />
                     Torio Jokar
                   </li>
                   <li class="user">
@@ -467,7 +467,7 @@
           <div class="col-md-6 grid-item filter1 filter3">
             <div class="courses-grid mb-30 d-flex align-items-center">
               <div class="img-part">
-                <a href="course-single.html"><img src="assets/images/courses/lg4.jpg" alt="" /></a>
+                <a href="course-single.html"><img src="src/assets/images/courses/lg4.jpg" alt="" /></a>
                 <div class="course-price">
                   <span class="price">56</span>
                 </div>
@@ -477,7 +477,7 @@
                 <div class="des">Excepteur sint occaecat cupidatat non proident, sunt in culpa</div>
                 <ul class="meta-part">
                   <li class="user">
-                    <img src="assets/images/courses/user/2.jpg" alt="" />
+                    <img src="src/assets/images/courses/user/2.jpg" alt="" />
                     Magic Bort
                   </li>
                   <li class="user">
@@ -599,17 +599,17 @@
         </div>
       </div>
       <div class="animated-arrow-1 animated-arrow left-right-new">
-        <img src="assets/images/arrow-5.png" alt="" />
+        <img src="src/assets/images/arrow-5.png" alt="" />
       </div>
       <div class="animated-arrow-2 animated-arrow up-down-new">
-        <img src="assets/images/arrow-2.png" alt="" />
+        <img src="src/assets/images/arrow-2.png" alt="" />
       </div>
 
       <div class="animated-arrow-3 animated-arrow up-down-new">
-        <img src="assets/images/arrow-4.png" alt="" />
+        <img src="src/assets/images/arrow-4.png" alt="" />
       </div>
       <div class="animated-arrow-4 animated-arrow left-right-new">
-        <img src="assets/images/arrow-3.png" alt="" />
+        <img src="src/assets/images/arrow-3.png" alt="" />
       </div>
     </div>
     <!-- Counter Section End -->
@@ -620,7 +620,7 @@
         <div class="row align-items-center">
           <div class="col-lg-5 md-mb-45">
             <div class="img-part position-relative">
-              <img class="" src="assets/images/about/instructor.png" alt="About Image" />
+              <img class="" src="src/assets/images/about/instructor.png" alt="About Image" />
             </div>
           </div>
           <div class="col-lg-7 pl-85 md-pl-15">
@@ -722,7 +722,7 @@
                     incididunt
                   </div>
                   <div class="user-info d-flex align-items-center">
-                    <img src="assets/images/testimonial/1.png" alt="" />
+                    <img src="src/assets/images/testimonial/1.png" alt="" />
                     <div class="author-details">
                       <h4 class="name">Saiko Bag</h4>
                       <ul class="ratings">
@@ -744,7 +744,7 @@
                     incididunt
                   </div>
                   <div class="user-info d-flex align-items-center">
-                    <img src="assets/images/testimonial/2.png" alt="" />
+                    <img src="src/assets/images/testimonial/2.png" alt="" />
                     <div class="author-details">
                       <h4 class="name">Done Joy</h4>
                       <ul class="ratings">
@@ -766,7 +766,7 @@
                     incididunt
                   </div>
                   <div class="user-info d-flex align-items-center">
-                    <img src="assets/images/testimonial/3.png" alt="" />
+                    <img src="src/assets/images/testimonial/3.png" alt="" />
                     <div class="author-details">
                       <h4 class="name">Najran Tagos</h4>
                       <ul class="ratings">
@@ -788,7 +788,7 @@
                     sit amet.
                   </div>
                   <div class="user-info d-flex align-items-center">
-                    <img src="assets/images/testimonial/1.png" alt="" />
+                    <img src="src/assets/images/testimonial/1.png" alt="" />
                     <div class="author-details">
                       <h4 class="name">Saiko Bory</h4>
                       <ul class="ratings">
@@ -808,17 +808,17 @@
       </div>
 
       <div class="animated-arrow-1 animated-arrow left-right-new">
-        <img src="assets/images/arrow-5.png" alt="" />
+        <img src="src/assets/images/arrow-5.png" alt="" />
       </div>
       <div class="animated-arrow-2 animated-arrow up-down-new">
-        <img src="assets/images/arrow-2.png" alt="" />
+        <img src="src/assets/images/arrow-2.png" alt="" />
       </div>
 
       <div class="animated-arrow-3 animated-arrow up-down-new">
-        <img src="assets/images/arrow-4.png" alt="" />
+        <img src="src/assets/images/arrow-4.png" alt="" />
       </div>
       <div class="animated-arrow-4 animated-arrow left-right-new">
-        <img src="assets/images/arrow-3.png" alt="" />
+        <img src="src/assets/images/arrow-3.png" alt="" />
       </div>
     </div>
     <!-- Testimonial Section End -->
@@ -858,7 +858,7 @@
         >
           <div class="blog-item">
             <div class="image-part">
-              <img src="assets/images/blog/1.jpg" alt="" />
+              <img src="src/assets/images/blog/1.jpg" alt="" />
             </div>
             <div class="blog-content">
               <ul class="blog-meta">
@@ -879,7 +879,7 @@
 
           <div class="blog-item">
             <div class="image-part">
-              <img src="assets/images/blog/2.jpg" alt="" />
+              <img src="src/assets/images/blog/2.jpg" alt="" />
             </div>
             <div class="blog-content">
               <ul class="blog-meta">
@@ -900,7 +900,7 @@
 
           <div class="blog-item">
             <div class="image-part">
-              <img src="assets/images/blog/3.jpg" alt="" />
+              <img src="src/assets/images/blog/3.jpg" alt="" />
             </div>
             <div class="blog-content">
               <ul class="blog-meta">
@@ -921,7 +921,7 @@
 
           <div class="blog-item">
             <div class="image-part">
-              <img src="assets/images/blog/4.jpg" alt="" />
+              <img src="src/assets/images/blog/4.jpg" alt="" />
             </div>
             <div class="blog-content">
               <ul class="blog-meta">
@@ -969,7 +969,7 @@
             <div class="about-widget pr-15">
               <div class="logo-part mb-30">
                 <a href="index.html"
-                  ><img src="assets/images/white-logo.png" alt="Footer Logo"
+                  ><img src="src/assets/images/white-logo.png" alt="Footer Logo"
                 /></a>
               </div>
               <p class="desc">
@@ -1052,17 +1052,17 @@
       </div>
     </div>
     <div class="animated-arrow-1 animated-arrow left-right-new">
-      <img src="assets/images/arrow-8.png" alt="" />
+      <img src="src/assets/images/arrow-8.png" alt="" />
     </div>
     <div class="animated-arrow-2 animated-arrow up-down-new">
-      <img src="assets/images/arrow-9.png" alt="" />
+      <img src="src/assets/images/arrow-9.png" alt="" />
     </div>
 
     <div class="animated-arrow-3 animated-arrow up-down-new">
-      <img src="assets/images/arrow-3.png" alt="" />
+      <img src="src/assets/images/arrow-3.png" alt="" />
     </div>
     <div class="animated-arrow-4 animated-arrow left-right-new">
-      <img src="assets/images/arrow-7.png" alt="" />
+      <img src="src/assets/images/arrow-7.png" alt="" />
     </div>
   </footer>
   <!-- Footer Secton End -->
